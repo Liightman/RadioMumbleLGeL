@@ -50,7 +50,6 @@
                 Liightman<br />
                 <!--Numéro de SIRET :  XXXX-->
                 Responsable editorial : Liightman<br />
-                Téléphone :0632021109<br />
                 Email : garutor@gmail.com<br />
                 Site Web : <a href="http://www.allodssaob.cluster011.ovh.net/">www.allodssaob.cluster011.ovh.net/</a><br />
                 <br>
@@ -61,9 +60,8 @@
                 <br><br />
                 <p style="color: #b51a00;"><span style="color: rgb(0, 0, 0);"><b>Développement</b><b> : </b></span></p>
                 Llyam Garcia (alias Liightman)<br />
-                Adresse : 5 RESIDENCE RIVES DE L'ADOUR<br />
                 Site Web : <a href="http://http://liightman.fr/">http://liightman.fr/</a><br />
-                Information : Ce site a été développé avec un framework développé par Liightman. Toute utilisation dérivée de ce framework pourra entraîner des poursuites judiciaires.
+            
 
                 <br><br />
                 <p style="color: #b51a00;"><span style="color: rgb(0, 0, 0);"><b>Conditions d’utilisation : </b></span></p>
