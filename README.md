@@ -6,7 +6,8 @@ LightPHPFramework est un framework php conçu en orienté objet avec la pattern 
 <ol>
   <li> Modifier les informations de connexion à la base de donné. <br>
     <ul>
-      <li>app/Jquery.php</li>
+      <li>app/ajax/Jquery.php</li>
+      <li>app/Functions.php</li>
       <li>config/config.php</li>
       <li>core/Database/MysqlDatabase.php</li>
     </ul>
