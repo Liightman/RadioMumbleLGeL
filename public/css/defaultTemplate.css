@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    /*background : url('http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/1/gray-gradient-9839.jpg')  no-repeat fixed;*/
+    /*background : url('http://cdn01.wallconvert.com/_media/conv/1/22/217671-gradient-light-background.jpg')  no-repeat fixed;*/
+    /*background : url('http://wallpapercolor.net/wallpapers/black-gradient-background-wallpaper-14682.jpg')  no-repeat fixed;*/
+    /*background : url('http://img15.hostingpics.net/pics/453806background.jpg')  no-repeat fixed;*/
+    background : url('http://img15.hostingpics.net/pics/306856Bdp.jpg')  no-repeat fixed center;
+}
+
+#global {
+    position: relative;
+    min-height: 100%;
+}
+
+#globalContainer {
+    position: relative;
+    min-height: 750px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+div.ui-dialog
+{
+    z-index: 100;
+    position:fixed;
+    float: none;
+    margin-left: 385px;
+    margin-top: 250px;
+    display: block;
+    height: auto;
+    width: 650px;
+}
+/****************** BOOTSTRAP ******************/
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.avatar-xs
+{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.avatar-sm
+{
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+}
+
+.avatar-md
+{
+    width: 135px;
+    height: 135px;
+    background-color: #fff;
+}
+
+.avatar-lg /*pour l'avatar principal page profil*/
+
+{
+    width: 166px;
+    height: 166px;
+    background-color: #fff;
+}
+
+.round-corner
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.no-corner
+{
+    border-radius: 0}
+
+.panel-heading-bloc-top
+{
+    position: absolute;
+    top: -59px;
+    left: -3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.title-list-bold
+{
+    font-weight: bold;
+    color: #6e6e6e;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.bout-md-width
+{
+    width: 180px;
+    line-height: 40px;
+    padding: 1px 6px;
+}
+
+.bout-sm-width
+{
+    width: 116px;
+    line-height: 40px;
+    padding: 1px 6px;
+}
+
+.inline-block
+{
+    /* non utilisé pour l'instant*/
+    display: inline-block;
+}
+
+.display-none
+{
+    display: none;
+}
+
+.navbar-wrapper {
+    font-family: 'Chewy', cursive;
+}
+
+.navbar-inverse {
+    background-color: #9F9F9F;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-inverse .navbar-right>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    background-color: black;
+}
+/****************** CSS HOME ******************/
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-create-import-image
+{
+    letter-spacing: 0.04em;
+    position: relative;
+}
+
+.btn-create-import-image input
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer !important;
+}
+
+footer{
+    margin-top:20px;
+    width:100%;
+    /*height:95px;*/
+    padding-top:15px;
+    text-align:center;
+    margin-bottom: -100px;
+    position:  absolute;
+    bottom:0;
+    left:0;
+    height:75px;
+    background: black;
+    color:white;
+}
+
+
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}

@@ -1,0 +1,8 @@
+# Logs
+logs
+*.log
+
+# Directory
+.idea
+
+.ovhconfig
