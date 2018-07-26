@@ -1,4 +1,4 @@
-LightPHPFramework
+LightPHPFramework [OUTDATED]
 ===================
 
 LightPHPFramework est un framework php conçu en orienté objet avec la pattern design MVC.
